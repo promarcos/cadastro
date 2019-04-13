@@ -1,0 +1,21 @@
+inherited FrmTela_LgXhdpiPh: TFrmTela_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited Panel1: TPanel
+    Size.Width = 430.000000000000000000
+    Size.Height = 675.000000000000000000
+    inherited Lb_Sauda: TLabel
+      Size.Width = 426.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+    inherited img: TImageControl
+      Size.Width = 402.000000000000000000
+      Size.Height = 379.000000000000000000
+    end
+    inherited btn_login: TSpeedButton
+      Position.Y = 535.000000000000000000
+      Size.Width = 394.000000000000000000
+    end
+  end
+end

@@ -1,0 +1,113 @@
+object FrmLogin: TFrmLogin
+  Left = 0
+  Top = 0
+  Caption = 'Login'
+  ClientHeight = 391
+  ClientWidth = 280
+  Fill.Kind = Gradient
+  Fill.Gradient.Points = <
+    item
+      Color = xFF065A9E
+      Offset = 0.248447209596633900
+    end
+    item
+      Color = claWhite
+      Offset = 1.000000000000000000
+    end>
+  Fill.Gradient.StartPosition.X = 0.211324885487556500
+  Fill.Gradient.StartPosition.Y = 1.000000000000000000
+  Fill.Gradient.StopPosition.X = 0.788675129413604700
+  Fill.Gradient.StopPosition.Y = -0.000000016464525743
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 3
+  object edt_user: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Anchors = [akLeft, akTop, akRight]
+    TabOrder = 0
+    Position.X = 24.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 233.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object edt_senha: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Anchors = [akLeft, akTop, akRight]
+    TabOrder = 1
+    Position.X = 24.000000000000000000
+    Position.Y = 184.000000000000000000
+    Size.Width = 233.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object lb_user: TLabel
+    Anchors = [akLeft, akTop, akRight]
+    Position.X = 24.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 233.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Usu'#225'rio:'
+    TabOrder = 3
+  end
+  object lb_senha: TLabel
+    Anchors = [akLeft, akTop, akRight]
+    Position.X = 24.000000000000000000
+    Position.Y = 144.000000000000000000
+    Size.Width = 233.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Senha:'
+    TabOrder = 2
+  end
+  object btn_cadastra: TCornerButton
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 16.000000000000000000
+    Position.Y = 248.000000000000000000
+    Sides = [Top, Left, Bottom, Right]
+    Size.Width = 81.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Text = 'Cadastrar'
+    TextSettings.Font.Size = 11.000000000000000000
+    XRadius = 3.000000000000000000
+    YRadius = 3.000000000000000000
+    OnClick = btn_cadastroClick
+  end
+  object btn_login: TCornerButton
+    Anchors = [akLeft, akTop, akRight]
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 104.000000000000000000
+    Position.Y = 248.000000000000000000
+    Sides = [Top, Left, Bottom, Right]
+    Size.Width = 77.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    Text = 'Logar'
+    TextSettings.Font.Size = 11.000000000000000000
+    XRadius = 3.000000000000000000
+    YRadius = 3.000000000000000000
+    OnClick = btn_logarClick
+  end
+  object btn_sair: TCornerButton
+    Anchors = [akTop, akRight]
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 184.000000000000000000
+    Position.Y = 248.000000000000000000
+    Sides = [Top, Left, Bottom, Right]
+    Size.Width = 81.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    Text = 'Sair'
+    TextSettings.Font.Size = 11.000000000000000000
+    XRadius = 3.000000000000000000
+    YRadius = 3.000000000000000000
+    OnClick = btn_cancelaClick
+  end
+end

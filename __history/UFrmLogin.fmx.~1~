@@ -1,0 +1,82 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 391
+  ClientWidth = 299
+  Fill.Kind = Gradient
+  Fill.Gradient.Points = <
+    item
+      Color = xFF065A9E
+      Offset = 0.248447209596633900
+    end
+    item
+      Color = claWhite
+      Offset = 1.000000000000000000
+    end>
+  Fill.Gradient.StartPosition.X = 0.211324885487556500
+  Fill.Gradient.StartPosition.Y = 1.000000000000000000
+  Fill.Gradient.StopPosition.X = 0.788675129413604700
+  Fill.Gradient.StopPosition.Y = -0.000000016464525743
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Anchors = [akLeft, akTop, akRight]
+    TabOrder = 0
+    Position.X = 24.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 252.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Edit2: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Anchors = [akLeft, akTop, akRight]
+    TabOrder = 1
+    Position.X = 24.000000000000000000
+    Position.Y = 184.000000000000000000
+    Size.Width = 252.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object lb_user: TLabel
+    Anchors = [akLeft, akTop, akRight]
+    Position.X = 24.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 252.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Usu'#225'rio:'
+    TabOrder = 3
+  end
+  object lb_senha: TLabel
+    Anchors = [akLeft, akTop, akRight]
+    Position.X = 24.000000000000000000
+    Position.Y = 144.000000000000000000
+    Size.Width = 252.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Senha:'
+    TabOrder = 2
+  end
+  object btn_cadastro: TSpeedButton
+    Position.X = 24.000000000000000000
+    Position.Y = 264.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Cadastrar'
+  end
+  object btn_logar: TSpeedButton
+    Anchors = [akTop, akRight]
+    Position.X = 168.000000000000000000
+    Position.Y = 262.000000000000000000
+    Size.Width = 104.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Login'
+  end
+end

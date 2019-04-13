@@ -1,0 +1,123 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 480
+  ClientWidth = 318
+  Fill.Kind = Gradient
+  Fill.Gradient.Points = <
+    item
+      Color = xFF0671C7
+      Offset = 0.180124223232269300
+    end
+    item
+      Color = claWhite
+      Offset = 1.000000000000000000
+    end>
+  Fill.Gradient.StartPosition.Y = 1.000000000000000000
+  Fill.Gradient.StopPosition.X = 1.000000000000000000
+  Fill.Gradient.StopPosition.Y = 0.000000017114270889
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Anchors = [akLeft, akTop, akRight]
+    TabOrder = 2
+    Position.X = 32.000000000000000000
+    Position.Y = 80.000000000000000000
+    Size.Width = 265.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Edit2: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Anchors = [akLeft, akTop, akRight]
+    TabOrder = 1
+    Position.X = 32.000000000000000000
+    Position.Y = 152.000000000000000000
+    Size.Width = 253.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Edit3: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Anchors = [akLeft, akTop, akRight]
+    TabOrder = 0
+    Position.X = 32.000000000000000000
+    Position.Y = 320.000000000000000000
+    Size.Width = 253.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object rd_macho: TRadioButton
+    Position.X = 32.000000000000000000
+    Position.Y = 208.000000000000000000
+    TabOrder = 4
+    Text = 'Caba Macho'
+  end
+  object rd_femea: TRadioButton
+    Position.X = 32.000000000000000000
+    Position.Y = 248.000000000000000000
+    TabOrder = 5
+    Text = 'Caba Fema'
+  end
+  object lb_Nome: TLabel
+    Position.X = 32.000000000000000000
+    Position.Y = 48.000000000000000000
+    Text = 'Nome:'
+    TabOrder = 8
+  end
+  object lb_idade: TLabel
+    Position.X = 32.000000000000000000
+    Position.Y = 120.000000000000000000
+    Text = 'Idade:'
+    TabOrder = 7
+  end
+  object lb_senha: TLabel
+    Position.X = 32.000000000000000000
+    Position.Y = 296.000000000000000000
+    Text = 'Senha'
+    TabOrder = 6
+  end
+  object btn_cadastro: TCornerButton
+    Position.X = 24.000000000000000000
+    Position.Y = 400.000000000000000000
+    Sides = [Top, Left, Bottom, Right]
+    Size.Width = 113.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 10
+    Text = 'Cadastrar'
+    XRadius = 3.000000000000000000
+    YRadius = 3.000000000000000000
+  end
+  object btn_sair: TCornerButton
+    Anchors = [akTop, akRight]
+    Position.X = 172.000000000000000000
+    Position.Y = 400.000000000000000000
+    Sides = [Top, Left, Bottom, Right]
+    Size.Width = 121.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 9
+    Text = 'Sair'
+    XRadius = 3.000000000000000000
+    YRadius = 3.000000000000000000
+  end
+  object Label1: TLabel
+    Align = Top
+    StyledSettings = []
+    Size.Width = 318.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Stencil'
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claDarkblue
+    TextSettings.HorzAlign = Center
+    Text = 'Cadastramento'
+    TabOrder = 11
+  end
+end

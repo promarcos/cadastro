@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/04/12 18:52:49.000.865,=C:\Users\16010471\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/04/12 19:23:51.000.550,C:\Users\16010471\Documents\Embarcadero\Studio\Projects\Aula_Cadastro\UFrmTela.fmx=C:\Users\16010471\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2019/04/12 19:23:51.000.550,C:\Users\16010471\Documents\Embarcadero\Studio\Projects\Aula_Cadastro\UFrmTela.pas=C:\Users\16010471\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/04/12 19:24:01.000.722,C:\Users\16010471\Documents\Embarcadero\Studio\Projects\Aula_Cadastro\PTelaCadastro.dproj=C:\Users\16010471\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2019/04/12 19:24:13.000.769,=C:\Users\16010471\Documents\Embarcadero\Studio\Projects\Aula_Cadastro\Unit2.pas</Transaction>
+    <Transaction>2019/04/12 19:33:57.000.332,C:\Users\16010471\Documents\Embarcadero\Studio\Projects\Aula_Cadastro\UFrmLogin.fmx=C:\Users\16010471\Documents\Embarcadero\Studio\Projects\Aula_Cadastro\Unit2.fmx</Transaction>
+    <Transaction>2019/04/12 19:33:57.000.332,C:\Users\16010471\Documents\Embarcadero\Studio\Projects\Aula_Cadastro\UFrmLogin.pas=C:\Users\16010471\Documents\Embarcadero\Studio\Projects\Aula_Cadastro\Unit2.pas</Transaction>
+    <Transaction>2019/04/12 19:34:05.000.675,=C:\Users\16010471\Documents\Embarcadero\Studio\Projects\Aula_Cadastro\Unit3.pas</Transaction>
+    <Transaction>2019/04/12 19:48:29.000.982,C:\Users\16010471\Documents\Embarcadero\Studio\Projects\Aula_Cadastro\UFrmCadastro.pas=C:\Users\16010471\Documents\Embarcadero\Studio\Projects\Aula_Cadastro\Unit3.pas</Transaction>
+    <Transaction>2019/04/12 19:48:29.000.982,C:\Users\16010471\Documents\Embarcadero\Studio\Projects\Aula_Cadastro\UFrmCadastro.fmx=C:\Users\16010471\Documents\Embarcadero\Studio\Projects\Aula_Cadastro\Unit3.fmx</Transaction>
+    <Transaction>2019/04/12 21:27:16.000.061,C:\Users\16010471\Documents\Embarcadero\Studio\Projects\Aula_Cadastro\PTelaCadastro.dproj=C:\Users\16010471\Documents\Embarcadero\Studio\Projects\Aula_Cadastro\PTelaCadastro2.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="0041500066"/>
+	</ActiveMobileDevice>
+</BorlandProject>
